@@ -25,8 +25,8 @@ section#login {
     transform: translate(-50%, -50%);
 
     background-color: white;
-    width: 300px;
-    height: 500px;
+    width: 90%;
+    height: 90%;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -49,7 +49,6 @@ section#login > div#imagem {
     background-size: cover;
     background-position: left center;
     height: 200px;
-
 }
 
 section#login > div#formulario {
@@ -122,7 +121,6 @@ div.campo > input {
     border-radius: 5px;
     padding: 4px;
     transform: translateY(-12px);
-
 }
 
 form > a.botao:hover {

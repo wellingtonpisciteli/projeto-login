@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+
+@media screen and (max-width: 768px) {
+    section#login > div#formulario {
+        margin-top: 15px;
+    }
+
+    form > div.campo {
+        margin: 15px 0px;
+    }
+
+    form > a.botao {
+        display: block;
+        margin-top: 69px;
+    }
+
+  
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     body {
         background-image: linear-gradient(to top,rgba(0, 0, 0, 0.589), #9e99df);
@@ -20,6 +38,7 @@
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
